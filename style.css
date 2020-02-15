@@ -1,0 +1,38 @@
+.searchicon {
+    background-color: skyblue;
+    float: right;
+}
+
+head {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+h1 {
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search {
+    float: left;
+}
+
+.cityinfo {
+    float: right;
+}
+
+.forecast {
+    float: right;
+}
+
+.jumbotron {
+    float: right;
+}

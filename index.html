@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <header>
+
+        <title> Weather Dashboard </title>
+
+    </header>
+
+    <h1> Weather Dashboard </h1>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c501efa70a.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+        integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+    <script src="script.js"> </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="search col-md-3">
+            <h2>
+                Search for a City
+            </h2>
+            <div class="input-field col s6">
+                <input placeholder="Placeholder" id="City" type="text" class="validate">
+                <button class="searchicon btn waves-effect waves-light" type="submit" name="action">
+                    <i class="fas fa-search"></i> </button>
+                <label for="City"> </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-9">
+            <div class="jumbotron">
+                <h1 class="display-4" id="cityDisplay"></h1>
+                <p class="lead">Temperature: <span id="tempDisplay"></span></p>
+                <p>Humidity: <span id="humDisplay"></span></p>
+                <p>Wind speed: <span id="windDisplay"></span></p>
+                <p>UV Index: <span id="uvDisplay"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="forecast col-md-9">
+        <h3> 5 Day Forecast </h3>
+        <div class="row">
+            <div class="card">
+                <div class="card-content">
+                    <p> Data </p>
+                </div>
+
+</body>
+
+
+
+
+
+</html>
