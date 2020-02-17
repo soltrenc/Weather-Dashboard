@@ -36,3 +36,8 @@ h3 {
 .jumbotron {
     float: right;
 }
+
+.card {
+    background-color: blue;
+    color: white;
+}
