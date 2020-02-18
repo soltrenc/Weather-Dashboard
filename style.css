@@ -11,7 +11,7 @@ head {
 }
 
 h1 {
-    background-color: grey;
+    background-color: black;
     color: white;
     text-align: center;
 }
@@ -35,9 +35,15 @@ h3 {
 
 .jumbotron {
     float: right;
+    align-content: center;
+    margin-bottom: 50px;
 }
 
 .card {
     background-color: blue;
     color: white;
+}
+
+body {
+    background-color: gray;
 }
