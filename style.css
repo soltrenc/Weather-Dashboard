@@ -42,6 +42,8 @@ h3 {
 .card {
     background-color: blue;
     color: white;
+    width: auto;
+    height: auto;
 }
 
 body {

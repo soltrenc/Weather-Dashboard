@@ -27,7 +27,7 @@ function getweatherData() {
             }
         }
 
-        $("cityDisplay").text(response.city.name)
+        $("#cityDisplay").addClass("<h2>").text(city + "" + moment().format("MM/DD/YY"))
         $("#tempDisplay").text(response.list[0].main.temp + "F")
         $("#humDisplay").text(JSON.stringify(response.list[0].main.humidity + "%"))
         $("#windDisplay").text(JSON.stringify(response.list[0].wind.speed + "MPH"))
